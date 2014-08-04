@@ -190,11 +190,8 @@
 		    }
 		}
 
-		$('#slide-1').first().addClass('active-sec');
-
 	    $('html').bind('mousewheel DOMMouseScroll', function(e){
 	        e.preventDefault();
-	        var active = $('section.active-sec');
 	        var delta = e.originalEvent.detail < 0 || e.originalEvent.wheelDelta > 0 ? 1 : -1;
 	        if (delta < 0) {
 	        	clearTimeout($.data(this, 'scrollTimer'));
