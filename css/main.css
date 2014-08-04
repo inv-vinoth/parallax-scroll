@@ -143,12 +143,6 @@ main {
 #slide-3 .bcg {
     background-image: url('../img/bcg_slide-3.png');
 }
-
-/* Slide 4 */
-#slide-4 .bcg {
-    background-image: url('../img/bcg_slide-4.png');
-}
-
     
 /* this aligns the content 150px up from the middle */
 .hsContainer {
